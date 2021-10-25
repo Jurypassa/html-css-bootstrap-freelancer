@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 100px;
+    background-color: #2c3e50;
+}
+
+.row{
+    height: 100px;
+}
+
+/* debug */
+
+.debug header .col{
+    height: 100px;
+}
+
+.debug header .col:first-child{
+    background-color: aqua;
+}
+
+.debug header .col:last-child{
+    background-color: aquamarine;
+}
+

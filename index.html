@@ -7,68 +7,116 @@
     <title>Bootstrap Freelancer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="debug">
 
     <header>
-
-        <!-- inizio header -->
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col">
-                </div>
-                <div class="col">
-                </div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark text-uppercase">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">start bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
-        <!-- / header -->
-
+          </nav>
     </header>
 
     <main>
 
         <!-- inizio start -->
-        <div class="container-fluid pj_start">
+        <div class="container-fluid pj_start pj_sfondo text-center text-white text-uppercase py-4">
 
             <div class="container">
                 <div class="row">
-                    <div class="col-12"></div>
-                    <div class="col-12"></div>
-                    <div class="col-12"></div>
-                    <div class="col-12"></div>
+                    <div class="col-12">
+                        <img src="img/avatar.svg" alt="">
+                    </div>
+                    <div class="col-12">
+                        <h1>start bootstrap</h1>
+                    </div>
+                    <div class="pj_stella col-12">
+                        <div class="stella bianca"></div>
+                        <i class="py-3 fas fa-star"></i>
+                        <div class="stella bianca"></div>
+                    </div>
+                    <div class="col-12">graphic artist - web disgner - illustrator</div>
                 </div>
             </div>
         </div>
         <!-- / start -->
 
         <!-- inizio portfolio -->
-        <div class="container">
+        <div class="container text-uppercase text-center my-3">
             <div class="row pj_portfolio">
-                <div class="col-12"></div>
-                <div class="col-12"></div>
+                <div class="col-12">
+                    <h3>portfolio</h3>
+                </div>
+                <div class="col-12">
+                    <div class="stella nera"></div>
+                    <i class="py-3 fas fa-star"></i>
+                    <div class="stella nera"></div>
+                </div>
             </div>
 
-            <div class="row pj_img">
-                <div class="col-12 col-md-6 col-xl-4 mb-4 rounded-3 my-2"></div>
-                <div class="col-12 col-md-6 col-xl-4 mb-4 rounded-3 my-2"></div>
-                <div class="col-12 col-md-6 col-xl-4 mb-4 rounded-3 my-2"></div>
-                <div class="col-12 col-md-6 col-xl-4 mb-4 rounded-3 my-2"></div>
-                <div class="col-12 col-md-6 col-xl-4 mb-4 rounded-3 my-2"></div>
-                <div class="col-12 col-md-6 col-xl-4 mb-4 rounded-3 my-2"></div>
+            <div class="pj_img row g-3">
+                <div class="col-12 col-md-6 col-xl-4 rounded-3">
+                    <img src="img/cabin.png" alt="cabin">
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 rounded-3">
+                    <img src="img/cake.png" alt="cake">
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 rounded-3">
+                    <img src="img/circus.png" alt="circus">
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 rounded-3">
+                    <img src="img/game.png" alt="game">
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 rounded-3">
+                    <img src="img/safe.png" alt="safe">
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 rounded-3">
+                    <img src="img/submarine.png" alt="submarine">
+                </div>
             </div>
         </div>
         <!-- / portfolio -->
 
         <!-- inizio about -->
-        <div class="container-fluid pj_about">
+        <div class="container-fluid pj_sfondo pj_about text-white ">
 
-            <div class="container">
+            <div class="container py-5">
                 <div class="row">
-                    <div class="col-12"></div>
-                    <div class="col-12"></div>
-                    <div class="col-12 col-md-6"></div>
-                    <div class="col-12 col-md-6"></div>
-                    <div class="col-12"></div>
+                    <div class="col-12 text-center">
+                        <h3 class="text-uppercase">about</h3>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="stella bianca"></div>
+                        <i class="py-3 fas fa-star"></i>
+                        <div class="stella bianca"></div>
+                    </div>
+                    <div class="offset-1 col-10 offset-md-0 col-md-6 offset-xl-1  col-xl-5">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, at odio vitae, cumque aliquid a harum maiores earum ullam labore debitis inventore sit veniam! Cum eos debitis voluptas architecto recusandae.</p>
+                    </div>
+                    <div class="offset-1 offset-md-0 col-10 col-md-6 col-xl-5">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam autem ab, commodi quisquam dignissimos deleniti, ea harum atque asperiores consequuntur animi perferendis numquam veritatis. Autem eveniet iste sint expedita eum.</p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn btn-outline-light"><i class="fas fa-download"></i> Download</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -77,10 +125,29 @@
         <!-- inizio contact me -->
         <div class="container pj_contact my-3">
             <div class="row">
-                <div class="col-12"></div>
-                <div class="col-12"></div>
-                <div class="col-12"></div>
-                <div class="col-12"></div>
+                <div class="col-12 text-uppercase text-center">
+                    <h3>contact me</h3>
+                </div>
+                <div class="text-center col-12">
+                    <div class="stella nera"></div>
+                    <i class="py-3 fas fa-star"></i>
+                    <div class="stella nera"></div></div>
+                <div class="offset-2 col-8">
+                    <label>Name</label>
+                    <input type="text">
+
+                    <label>Email Address</label>
+                    <input type="text">
+
+                    <label>Phone Number</label>
+                    <input type="text">
+
+                    <label>Message</label>
+                    <textarea cols="30" rows="5"></textarea>
+                </div>
+                <div class="offset-2 col-8 pt-2">
+                    <button type="button" class="btn btn-info">Send</button>
+                </div>
             </div>
         </div>
         <!-- / contact me -->
@@ -89,19 +156,39 @@
     <footer>
 
         <!-- inizio footer top -->
-            <div class="container-fluid pj_top pj_reference">
+            <div class="container-fluid pj_top pj_reference text-white text-center py-4">
 
                 <div class="row">
-                    <div class="col-12 col-md-4"></div>
-                    <div class="col-12 col-md-4"></div>
-                    <div class="col-12 col-md-4"></div>
+                    <div class="col-12 col-md-4 pb-3">
+                        <span class="text-uppercase">location</span>
+                        <span>2215 John Daniel Drive Clark, MO 54243</span>
+                    </div>
+                    <div class="col-12 col-md-4 pb-3">
+                        <span class="text-uppercase">around the web</span>
+                        <div class="pj_circle mx-2">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="pj_circle mx-2">
+                            <i class="fab fa-google-plus-g"></i>
+                        </div>
+                        <div class="pj_circle mx-2">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="pj_circle mx-2">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 pb-3">
+                        <span class="text-uppercase">about freelencer</span>
+                        <span>Freelance is a free to use, open sourse Bootstrap theme created by <span>Start Bootstrap</span>.</span>
+                    </div>
                 </div>
             </div>
         <!-- / footer top -->
 
         <!-- inizio footer bottom -->
-            <div class="container-fluid pj_bottom">
-                
+            <div class="container-fluid pj_bottom text-center text-white pt-4">
+                <p>Copyright <i class="far fa-copyright"></i> Your Website 2019</p>
             </div>
         <!-- /footer bottom -->
 
